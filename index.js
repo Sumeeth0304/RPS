@@ -1,14 +1,14 @@
 function rps(){
 var randomNumber = (Math.floor(Math.random()*9)) + 1;
-var imageSource1 = "/Images/Paper-Rock.jpeg";
-var imageSource2 = "/Images/Rock-Scissors.jpeg";
-var imageSource3 = "/Images/Scissors-Paper.jpeg";
-var imageSource4 = "/Images/Rock-Paper.jpeg";
-var imageSource5 = "/Images/Scissors-Rock.jpeg";
-var imageSource6 = "/Images/Paper-Scissors.jpeg";
-var imageSource7 = "/Images/Paper-Paper.jpeg";
-var imageSource8 = "/Images/Rock-Rock.jpeg";
-var imageSource9 = "/Images/Scissors-Scissors.jpeg";
+var imageSource1 = "Images/Paper-Rock.jpeg";
+var imageSource2 = "Images/Rock-Scissors.jpeg";
+var imageSource3 = "Images/Scissors-Paper.jpeg";
+var imageSource4 = "Images/Rock-Paper.jpeg";
+var imageSource5 = "Images/Scissors-Rock.jpeg";
+var imageSource6 = "Images/Paper-Scissors.jpeg";
+var imageSource7 = "Images/Paper-Paper.jpeg";
+var imageSource8 = "Images/Rock-Rock.jpeg";
+var imageSource9 = "Images/Scissors-Scissors.jpeg";
 if(randomNumber === 1){
     document.querySelector("img").setAttribute("src", imageSource1 )
     document.querySelector("h1").innerHTML = "Player 1 wins by Papering the Rock!"
